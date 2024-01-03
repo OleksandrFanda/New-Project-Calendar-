@@ -1,0 +1,49 @@
+.backgroundP {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.leftpage {
+    width: 350px;
+    height: 450px;
+    background-color: aquamarine;
+}
+.monthPad {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.colorWeek {
+    color: brown;
+    font-weight: 600;
+}
+.numberSlot {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 600px;
+    height: 350px;
+    text-align: center;
+}
+.rightpage {
+    color: grey;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.dayFormat {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 180px;
+    font-weight: bold;
+}
+.weekFormat {
+    padding-top: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.dateForm{
+    font-weight: 800;
+    font-size: 20px;
+}
